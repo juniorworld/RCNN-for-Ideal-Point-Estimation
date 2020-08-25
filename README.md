@@ -17,7 +17,7 @@ Repost frequency W<sub>ij</sub> between user i and user j was negatively correla
 ## Flow chart of the Model
 <div style="text-align:center"><img src="https://juniorworld.github.io/RCNN-for-Ideal-Point-Estimation/general_framework.png" width="600"></div>
 Figure 1. General framework of the hybrid model.  Input data is a pair of 1000x200 embedding matrices, one from reposter and the other from originator.  Ideology estimator takes a user's embedding matrix as input and returns an estimated ideological point of the user, based on which the pairwise ideological distance is calculated.  Weighted indegree of reposter and weighted outdegree of originator are added as control variables.  Model’s weights are optimized to get better predictions for normalized weights.
-<div><p><p></div>
+<div><br><br></div>
 <div style="text-align:center"><img src="https://juniorworld.github.io/RCNN-for-Ideal-Point-Estimation/RCNN-Ideology.png" width="600"></div>
 Figure 2. Inner structure of the ideology estimator.  The estimator has three hidden layers, one gated recurrent units (GRU) layer, one one-dimensional (1D) convolutional layer and one simple recurrent layer.  The number of hidden units in GRU, the number and the height of filters in the 1D convolutional layer, the pool size, and the number of hidden units in the simple recurrent layer are five hyperparameters whose values were chosen according to results of hyperparameter tuning.
 
