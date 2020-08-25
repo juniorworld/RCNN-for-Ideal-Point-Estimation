@@ -4,7 +4,7 @@ A RCNN model for estimating the ideological positions of social media users, bas
 ## Rationale
 <b>Assumption 1.</b> People's ideological position is a function of what he/she says. Words reveal minds. Different words reveal different minds.<br>
 <b>Assumption 2.</b> The tie strength between two people is a function of their ideological distance. People tend to interact with someone holding similar opinions as theirs. The more similar two people are, the more frequent they would repost each other.<br>
-<b>Assumption 3.</b> The tie strenght between two people also depends on individuals' personal characteristics. For example, their social influence and the out-reaching propensity.<br>
+<b>Assumption 3.</b> The tie strength between two people also depends on individuals' personal characteristics. For example, their social influence and the out-reaching propensity.<br>
 ## Operationalization
 We integrate the three assumptions with an operationalization design as follows:<br>
 Repost frequency W<sub>ij</sub> between user i and user j was negatively correlated with their ideological distance, whilst controlling for reposter’s outreach efforts In'<sub>j</sub> and originator’s influence Out'<sub>i</sub>.
