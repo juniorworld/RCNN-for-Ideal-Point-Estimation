@@ -12,11 +12,11 @@ Repost frequency W<sub>ij</sub> between user i and user j was negatively correla
 - User's reacho out propensity can be evaluated by the number of time the user has reposted others.
 - Above two features are highly right-skewed. Therefore, log-transformations are applied over the raw values to make them more compliant to normality.
 <br>
-<img src="/Formula.png" width="500"><br>
+<img src="https://juniorworld.github.io/RCNN-for-Ideal-Point-Estimation/Formula.png" width="500"><br>
 
 ## Flow chart of the Model
-<img src="/general_framework.png" width="600"><br>
-<img src="/RCNN-Ideology.png" width="600"><br>
+<img src="https://juniorworld.github.io/RCNN-for-Ideal-Point-Estimation/general_framework.png" width="600"><br>
+<img src="https://juniorworld.github.io/RCNN-for-Ideal-Point-Estimation/RCNN-Ideology.png" width="600"><br>
 
 ## Working Paper
-[Zhu Y. & Fu K.W. (2020) Mapping Ideological Landscape of Social Media: A Neural Network Approach. Paper presented at 2020 ICA Annual Conference.](/Yuner%20Zhu%20&%20KW%20FU_Mapping_Ideology_Lanscape.pdf)
+[Zhu Y. & Fu K.W. (2020) Mapping Ideological Landscape of Social Media: A Neural Network Approach. Paper presented at 2020 ICA Annual Conference.](https://juniorworld.github.io/RCNN-for-Ideal-Point-Estimation/Yuner%20Zhu%20&%20KW%20FU_Mapping_Ideology_Lanscape.pdf)
