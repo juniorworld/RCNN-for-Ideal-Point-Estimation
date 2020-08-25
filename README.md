@@ -11,6 +11,7 @@ Repost frequency W<sub>ij</sub> between user i and user j was negatively correla
 - User influence can be evaluated by the number of times the user has been reposted by others.
 - User's reacho out propensity can be evaluated by the number of time the user has reposted others.
 - Above two features are highly right-skewed. Therefore, log-transformations are applied over the raw values to make them more compliant to normality.
+<br>
 <img src="/Formula.png" width="500"><br>
 
 ## Flow chart of the Model
